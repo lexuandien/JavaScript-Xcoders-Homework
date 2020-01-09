@@ -6,7 +6,6 @@ console.log(a === b);
 
 // Answer
 //Array cũng được phân loại là object. 
-Phép so sánh === giữa Objects chỉ ra kết quả True khi so sánh cùng trong 1 Object. 
-An expression comparing Objects is only true if the operands reference the same Object.
-Nguồn:
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+//Two distinct objects are never equal for either strict or abstract comparisons.
+//Nguồn:
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
